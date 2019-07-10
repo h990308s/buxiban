@@ -1,0 +1,78 @@
+<view class="top">
+  <swiper class='home-swiper' indicator-dots='true' autoplay='true' interval='4000' duration='1000' circular='true' indicator-color="#FFFFFF" indicator-active-color="#3197fb">
+    <view>
+      <block>
+        <swiper-item>
+          <image src='{{img}}' class='u-img-slide' mode='aspectFill'></image>
+        </swiper-item>
+      </block>
+    </view>
+  </swiper>
+  <!-- 轮播图结束 -->
+
+  <van-row custom-class="top1">
+    <van-col span="20">{{yingyu.title}}</van-col>
+    <van-col span="4" custom-class="top1_1">
+      <van-icon name="share" />
+      <text>分享</text>
+    </van-col>
+  </van-row>
+  <view class="qian">￥1200.00</view>
+  <view class="top2">
+    <view class="top2_1">
+      <text>评价</text>
+      <view style="float:right;">
+        暂无评价
+        <van-icon name="arrow" />
+      </view>
+    </view>
+    <view class="top2_2">
+      <text>截止日期</text>
+      <text>{{yingyu.stop_time}}</text>
+    </view>
+    <view class="top2_2">
+      <text>来访地址</text>
+      <text>{{yingyu.address}}</text>
+    </view>
+    <view class="top2_3">
+      <text>课程简介</text>
+    </view>
+  </view>
+  <!-- 评价结束 -->
+  <view class="top3">
+  <text>奥数对择校来说是一道绕不过的坎，想要进入民办牛校，奥数是非常重要的一环，禁止这么多年还是没能禁掉，那就坦然面对吧</text>
+  </view>
+  <!-- 课程简介结束 -->
+  <view class="top4">
+    <view class="top4_1">猜你喜欢</view>
+    <van-row>
+      <van-col span="12" bindtap='bindAaa'>
+        <view class="top4_2">
+          <view class="top4_2_1">
+            <image src="{{xihuan.img}}"></image>
+            <view class="top4_2_1_1">
+              <text>{{xihuan.title}}</text>
+              <text>￥{{xihuan.price}}</text>
+            </view>
+          </view>
+        </view>
+      </van-col>
+       <van-col span="12" bindtap='bindAaa1'>
+        <view class="top4_2">
+          <view class="top4_2_1">
+            <image src="{{xihuan1.img}}"></image>
+            <view class="top4_2_1_1">
+              <text>{{xihuan1.title}}</text>
+              <text>￥{{xihuan1.price}}</text>
+            </view>
+          </view>
+        </view>
+      </van-col>
+    </van-row>
+  </view>
+</view>
+<!-- 内容结束 -->
+<view class="dibu">
+  <view bindtap='bodadianhua'>电话咨询</view>
+  <view>立即报名</view>
+</view>

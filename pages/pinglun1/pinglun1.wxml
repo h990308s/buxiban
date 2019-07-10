@@ -1,0 +1,204 @@
+<!--pages/booter/booter.wxml-->
+<view class="Nav">
+  <text>{{subjects.news.title}}</text>
+</view>
+<view class="Nav_t">
+  <text>来源：  {{subjects.news.source}}</text>
+  <text>{{subjects.comment[2].ctime}}</text>
+</view>
+<!-- 模块1 -->
+<view class="ment1">
+  <view class="ments">
+    <text>1.基础薄弱的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>学习是一个持续、连贯的过程。每天的学习都需要按一个合理的顺利，每个科目的学习更具有前后连贯性。如果其中一个环节没有做好，必定会影响到下一个环节，从而导致学习节奏的混乱，最后导致知识消化不良。</text>
+    <text>对于前面已经学过的知识还没掌握好，老师再讲新的知识，自然就会听不懂了。结果不懂的知识点越来越多，新的内容又纷至沓来，从而陷入“一步慢导致步步慢”的恶性循环。
+    </text>
+    <text class="items">基础不牢的危害：</text>
+    <text>1、对学过的知识一知半解，背诵、记忆时出错频繁 </text>
+    <text>2、上课时跟不上老师的节奏，看似听懂了，过几天后一问三不知</text>
+    <text>3、经常需要翻书查看例题和知识点，做题和考试磕磕绊绊</text>
+    <text class="items">基础不牢的原因：</text>
+    <text>1、没有预习的习惯，对即将学习的内容一无所知，只能被动地听课</text>
+    <text>2、不会巩固复习，对学过的知识消化不良，造成基础越来越不牢固</text>
+    <text>3、不重视平时的作业和练习，导致学习基础越来越差</text>
+    <text>4、不会运用学习技巧，学习方式生硬、呆板，导致掌握的知识零散</text>
+    <text class="items">名师支招：</text>
+    <text>·学会预习，专心听讲，变被动为主动</text>
+    <text>·趁热打铁，及时复习，巩固已学知识</text>
+    <text>·认真作业，强化训练，温故而知新</text>
+    <text>·活学活用，提高效率，步步为赢</text>
+  </view>
+</view>
+<!-- 模块2 -->
+<view class="ment1">
+  <view class="ments">
+    <text>2.效率低下的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>明明给自己制定了计划，但复习时总是走神。自主学习效率很低，我该怎么办好呢?很多同学都有这样的问题——学习效率低，尤其是面临重大考试的学生，低效率严重影响了复习的进度和备考计划是否能按时完成。</text>
+    <text>较低的学习效率让我们学习目标不明确、学习时间分配不合理、学习时间分配不合理。学习效率低和学习习惯是分不开的，而在重大的考试前，靠几天的突击复习是无法侥幸过关的，从而影响最后的成绩。
+    </text>
+    <text class="items">效率低下的危害：</text>
+    <text>1、听课反应慢，容易走神</text>
+    <text>2、课后复习慢，没有头绪</text>
+    <text>3、作业完成慢，影响睡眠</text>
+    <text>4、考试速度慢，答不完卷</text>
+    <text>5、学习动机和学习兴趣不浓</text>
+    <text class="items">效率低下的原因：</text>
+    <text>1、缺少学习动机，没有端正学习态度</text>
+    <text>2、缺乏良好的学习习惯和学习方法</text>
+    <text>3、学习无压力，对待学习不重视</text>
+    <text class="items">名师支招：</text>
+    <text>1.课前认真预习，课后复习，这样可以提高上课时的效率并及时巩固</text>
+    <text>2.上课时认真听讲，并积极思考，当堂课的东西当堂消化，不要留到课后</text>
+    <text>3.做限时训练，提高孩子的注意力，比如由家长或教师监督限定三分钟内记忆</text>
+    <text>4.心理辅导，让孩子认识到抓紧时间的重要性，主动学习</text>
+  </view>
+</view>
+<!-- 模块3 -->
+<view class="ment1">
+  <view class="ments">
+    <text>3.粗心马虎的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>马虎的问题不但体现在解题上，还体现在学员平时的生活细节中，对学员影响较为深远，解决马虎，刻不容缓。</text>
+    <text class="items">粗心马虎的危害：</text>
+    <text>·丢三落四</text>
+    <text>·会做的题目做错</text>
+    <text>·答案写错</text>
+    <text>·题目看错，丢分都丢在简单题上</text>
+    <text class="items">粗心马虎的原因：</text>
+    <text>·注意力不集中，无法同时写和想</text>
+    <text>·不能在短时间内记住所见材料</text>
+    <text>·手和眼协调能力差</text>
+    <text class="items">名师支招：</text>
+    <text>1.教学生重点审题，多多关注题干</text>
+    <text>2.建议家长和孩子一起做题，以监督孩子，随时指出马虎之处</text>
+    <text>3.马虎的根本原因就是对题目和知识点不熟，因此要经常做题，培养谨慎的态度</text>
+    <text>4.改善孩子的学习习惯，限时训练，以绷紧孩子的神经。</text>
+  </view>
+</view>
+<!-- 模块4 -->
+<view class="ment1">
+  <view class="ments">
+    <text>4.缺乏解题思路的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>很多学生认为，做题纯粹是“跟着感觉走，紧抓住梦的手”，做时凭直觉，做完凭运气，“文无定法”。由于对知识不熟悉、认识不深刻，导致在做题的时候缺乏思路，往往想当然的来回答，造成结果偏差很大。重大的升学考试中思路决定效率，能够为我们争取更多的做题时间，赢得更多的分数。</text>
+    <text class="items">缺乏思路的危害：</text>
+    <text>1、不能形成清晰的解题脉络，找不出已知和所求的关系</text>
+    <text>2、解题方法单一，方法死板，遇到难题解不出，到时学习兴趣下降</text>
+    <text>3、综合分析能力较弱，逻辑思维体系不完善</text>
+    <text class="items">缺乏思路的原因：</text>
+    <text>1、学习计划性不强，所学知识一知半解</text>
+    <text>2、缺少学习方法，听课时精力不集中，缺乏思考</text>
+    <text>3、没有勤学好问，预习和复习的好习惯</text>
+    <text>4、对解题的目的不明确，不会从题目入手，寻找关键要素和突破口</text>
+    <text>5、练习少，不能掌握知识要点</text>
+    <text class="items">名师支招：</text>
+    <text>·养成认真听讲的习惯</text>
+    <text>·养成认真完成作业的吸光</text>
+    <text>·养成勤学好问的习惯</text>
+    <text>·养成提出问题的习惯</text>
+    <text>·养成独立思考，合作交流的习惯</text>
+    <text>·养成擅于总结的习惯</text>
+  </view>
+</view>
+<!-- 模块5 -->
+<view class="ment1">
+  <view class="ments">
+    <text>5.考试焦虑的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>学习是一个循序渐进的过程，需要通过理解、掌握、加深三个步骤，最后达到运用自如的程度。如果理解不透彻，不能灵活掌握，面对考试何来信心呢? </text>
+    <text class="items">考试焦虑的危害：</text>
+    <text>1.平时活泼开朗，可每次重要考试前(如期中、期末)就变得急躁、紧张</text>
+    <text>2.平时会做的题目突然在考试前没有了思路，总是慌慌张张的在复习，却又看不进去</text>
+    <text>3.十分担心考试失败，甚至暗示自己考试一定会失败</text>
+    <text>4.复习记住的东西很快就会忘记</text>
+    <text class="items">考试焦虑的原因：</text>
+    <text>1.过于焦虑，休息不好，对大脑及身体有不好的影响</text>
+    <text>2.过于紧张，影响考试发挥，平常会做的题可能也做不出来</text>
+    <text>3.长此以往，会使学生产生厌考心理。</text>
+    <text class="items">名师支招：</text>
+    <text>1.让孩子在考前好好休息，或者带孩子出去轻松一下，以放松精神</text>
+    <text>2.减缓压力，让孩子不要太在意考试，告诉他无论怎样，尽力即可</text>
+    <text>3.听音乐，适当的看漫画等，以减少心理压力</text>
+    <text>4.鼓励孩子，告诉他：你很优秀，不要担心考试，只要别紧张就一定可以</text>
+    <text>5.不要给孩子负担，让孩子认为只是像平时的小测验，舒缓心里压力</text>
+  </view>
+</view>
+<!-- 模块6 -->
+<view class="ment1">
+  <view class="ments">
+    <text>6.信心不足的同学</text>
+  </view>
+  <view class="ment1_item">
+    <text>同一个学生，相信与不相信自己，所得到的结果是完全不一样的。而考生面对考试，首先要对自己有绝对的信心，不管是成绩好的还是成绩一般，面对考试都要尽力而为，不要抱有考不考得上，都觉得无所谓的心态，每个考生都要有考高分的信心，才能拥有成功的充分理由。</text>
+    <text class="items">信心不足的危害：</text>
+    <text>1、学习压力过大</text>
+    <text>2、基础知识薄弱</text>
+    <text>3、做题不敢尝试，怕出错</text>
+    <text class="items">信心不足的原因：</text>
+    <text>1、养成消极的自我观念，妄自菲薄</text>
+    <text>2、考前过渡焦虑，担心考砸</text>
+    <text>3、不敢主动回答问题，学习缺少主动性</text>
+    <text class="items">名师支招：</text>
+    <text>1、积极参与，克服心理障碍，建立自信心</text>
+    <text>2、不断学习，加深知识沉淀，奠定自信心</text>
+    <text>3、把握标准，深入挖掘教材，增强自信心</text>
+    <text>4、反馈信息，有效驾驭课堂，提高自信心</text>
+  </view>
+</view>
+<!--引入加载更多模版-->
+  <!--评论列表-->
+  <view class="comments">
+    <view class="item touch-active" wx:for="{{comments}}" wx:key="" wx:for-item="c">
+      <view class="i-left">
+        <image class="c-u-img" src="{{c.head_pic}}"></image>
+      </view>
+      <view class="i-right">
+        <view class="top">
+          <text class="u-name">{{c.username}}</text>
+          <text class="time">{{c.ctime}}</text>
+        </view>
+
+        <!--评论内容-->
+        <view class="content">
+          {{c.content}}
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!--加载更多模版-->
+  <!-- <block wx:if="{{isLoading}}">
+    <template is="loading" />
+  </block>
+  <block wx:else>
+    <template is="nodata" />
+  </block> -->
+  
+
+  <!--评论盒子-->
+  <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'block' : 'none'}}"></view>
+  <view class="comment-fixed">
+    <view class="cf-box">
+      <view class="emoji iconfont icon-emoji" catchtap="emojiShowHide"></view>
+      <input type="text" class="cf-content" bindfocus="textAreaFocus" maxlength="200" bindblur="textAreaBlur" auto-height value="{{content}}" placeholder="我要评论" />
+      <text class="cf-send touch-active" bindtap="send">发送</text>
+    </view>
+
+    <!--emoji表情盒子-->
+    <view class="emoji-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
+      <scroll-view scroll-y="true" bindscroll="emojiScroll" style="height:200px">
+        <block wx:for="{{emojis}}" wx:for-item="e" wx:key="">
+          <view class="emoji-cell">
+            <image class="touch-active" catchtap="emojiChoose" src="http://soupu.oss-cn-shanghai.aliyuncs.com/emoji/{{e.emoji}}.png" data-emoji="{{e.char}}" data-oxf="{{e.emoji}}"></image>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </view>

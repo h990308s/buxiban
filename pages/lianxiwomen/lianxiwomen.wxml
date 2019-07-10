@@ -1,0 +1,45 @@
+<image class="banner" src="{{list.bgimg}}"></image>
+
+  <text class="title">{{list.name}}</text>
+  <view class="content">
+    <image src="../../image/weizhi.png"></image>
+    <text>{{list.address}}</text>
+  </view>
+  <view class="content">
+    <image src="../../image/lianxifangshi.png"></image>
+    <text class="lianxi">{{list.subphone}}</text>
+  </view>
+  <view class="jiange"></view>
+
+  <view class="consult">
+    <text>联系方式</text>
+    <text>
+    各校区免费咨询电话:
+
+    目前腾大教育旗下校区分为苏州城区校区,苏州园区校区，无锡崇安校区，无锡东亭校区，常州校区，常熟校区，张家港校区，昆山校区,合肥校区。
+
+
+    苏州城区: 400-658-6609转555
+    苏州园区: 400-658-6609转666
+
+
+    无锡城区: 400-658-6609转888
+    无锡东亭: 400-658-6609转668
+
+
+    常州校区: 400-658-6609转999
+    常熟校区: 400-658 6609转688
+
+
+    昆山校区: 400-658-6609转699
+    张家港校区: 400-658-6609转988
+
+
+    合肥校区: 400-658-6609转886
+    </text>
+  </view>
+  <view class="content">
+    <image src="../../image/guanwang.png"></image>
+    <text>公司官网</text><text class="wangzhi">{{list.site}}</text>
+  </view>
+<button class="consult-button">我要咨询</button>

@@ -1,0 +1,97 @@
+<view class="fenlei">
+<view class="swiper-tab">
+ <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">全部</view>
+ <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">高三</view>
+ <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">高二</view>
+ <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">高一</view>
+ <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">初三</view>
+ <view class="swiper-tab-list {{currentTab==5 ? 'on' : ''}}" data-current="5" bindtap="swichNav">初二</view>
+ <view class="swiper-tab-list {{currentTab==6 ? 'on' : ''}}" data-current="6" bindtap="swichNav">初一</view>
+</view>
+<!-- 左边结束 -->
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+ <swiper-item>
+ <view class="quanbu" bindtap='bindAaa' data-newsid="{{item}}" wx:for="{{list}}" wx:key="">
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{item.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{item.title}}</view>
+   <text>{{item.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view>
+<!-- <view class="quanbu" bindtap='bindAaa1'>
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{product_list1.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{product_list1.title}}</view>
+   <text>{{product_list1.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view> -->
+ </swiper-item>
+
+ <swiper-item>
+ <view class="quanbu" bindtap='bindAaa'>
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{product_list.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{product_list.title}}</view>
+   <text>{{product_list.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view>
+ </swiper-item>
+
+ <swiper-item>
+ <view class="quanbu" bindtap='bindAaa1'>
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{product_list1.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{product_list1.title}}</view>
+   <text>{{product_list1.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view>
+ </swiper-item>
+
+ <swiper-item>
+ 
+ </swiper-item>
+
+ <swiper-item>
+ 
+ </swiper-item>
+
+ <swiper-item>
+<view class="quanbu" bindtap='bindAaa'>
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{product_list.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{product_list.title}}</view>
+   <text>{{product_list.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view>
+ </swiper-item>
+
+ <swiper-item>
+ <view class="quanbu" bindtap='bindAaa1'>
+ <van-row>
+  <van-col span="9" custom-class="quanbu1"><image src="{{product_list1.img}}"></image></van-col>
+  <van-col span="15" custom-class="quanbu2">
+   <view class="quanbu2_1">{{product_list1.title}}</view>
+   <text>{{product_list1.short_title}}</text>
+   <van-icon name="chat-o" />
+  </van-col>
+</van-row>
+</view>
+ </swiper-item>
+</swiper>
+<!-- 右边结束 -->
+</view>

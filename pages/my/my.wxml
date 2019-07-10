@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 点击登录 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+<!-- 我的订单部分 -->
+<view class="banner">
+  <text class="banner-left">我的订单</text>
+  <text bindtap="dingdan" class="banner-right">查看全部订单></text>
+</view>
+<!-- 付款部分 -->
+<view class="cont">
+  <view bindtap="dingdan" wx:for="{{img}}" wx:key="" class="cont-r">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+<!-- 分割线 -->
+<view class="fenge"></view>
+<!-- 更多服务 -->
+<view class="banner">
+  <text class="banner-left">更多服务</text>
+</view>
+<!-- 更多服务部分 -->
+<view class="cont">
+  <view wx:for="{{more}}" wx:key="" class="cont-r" bindtap="bindXsk" data-newsid="{{item}}">
+    <image src="{{item.icon}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

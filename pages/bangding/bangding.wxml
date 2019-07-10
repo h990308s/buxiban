@@ -1,0 +1,13 @@
+<form bindsubmit="formSubmit" name="loginForm" action="../../mima/mima">
+  <view class="content">
+    <text>手机号</text>
+    <input class="int" name="phone" type="number" maxlength="11" bindinput="inputPhoneNum" placeholder="请输入您的手机号"></input>
+  </view>
+  <view class="tis">
+    <navigator url="../xieyi/xieyi">
+      <text class="tishi">温馨提示：未注册账号的手机号，绑定时将自动注册，且代表您已同意  <text>《用户服务协议》</text></text>
+    </navigator>
+  </view>
+  <button class="submit" form-type="submit">绑定手机号</button>
+  <text class="tiaoguo">跳过</text>
+</form>

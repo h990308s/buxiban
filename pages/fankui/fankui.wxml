@@ -1,0 +1,6 @@
+<form bindsubmit="formSubmit" name="loginForm" action="../../mima/mima">
+  <textarea class="describe" placeholder="请尽量详细描述反馈，我们会第一时间反馈"></textarea>
+  <input class="name" name="user" type="text" maxlength="10" bindinput="inputUserName" placeholder="昵称"></input>
+  <input class="int" name="phone" type="number" maxlength="11" bindinput="inputPhoneNum" placeholder="联系方式"></input>
+  <button class="submit"  form-type="submit">发送</button>
+</form>

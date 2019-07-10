@@ -1,0 +1,43 @@
+.swiper-tab{
+  width: 100%; 
+  text-align: center; 
+  line-height: 80rpx;
+}
+.swiper-tab-list{
+  font-size: 30rpx; 
+  display: inline-block; 
+  width: 20%; 
+  color: #777777; 
+}
+.on{
+  color: #328ef6; 
+  border-bottom: 5rpx solid #328ef6;
+}
+.swiper-box{ 
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f8f8;
+ }
+.swiper-box view{ 
+  text-align: center; 
+}
+.item-one{
+  font-size: 36rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.item-two{
+  margin-top: 15rpx;
+  font-size: 26rpx;
+  color: #ccc;
+  text-align: center;
+}
+.img{
+  margin-top: 40%;
+}
+.img image{
+  width: 240rpx;
+  height: 240rpx;
+}

@@ -1,0 +1,51 @@
+/* pages/dongtai/dongtai.wxss */.swiper-tab{
+  width: 100%; 
+  text-align: center; 
+  line-height: 80rpx;
+}
+.swiper-tab-list{
+  font-size: 30rpx; 
+  display: inline-block; 
+  width: 20%; 
+  color: #777777; 
+}
+.on{
+  color: #328ef6; 
+}
+.swiper-box{ 
+  display: block;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8f8f8;
+ }
+.swiper-box view{ 
+  text-align: center; 
+}
+.cont{
+  margin-top: 20rpx;
+  background-color: #fff;
+  height: 200rpx;
+  position: relative;
+}
+.cont-txt{
+  width: 100%;
+  height: 50rpx;
+  padding: 20rpx 0 0 18rpx;
+}
+.cont-txt text{
+  float: left;
+  font-size: 28rpx;
+}
+.cont-t{
+  font-size: 26rpx;
+  color: #ccc;
+  width: 90%;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  margin: 0 15rpx 15rpx 0;
+}
+.cont-two{
+  float: right;
+}

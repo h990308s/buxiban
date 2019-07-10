@@ -1,0 +1,75 @@
+/**index.wxss**/
+.container {
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50, 142, 246);
+} 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.userinfo button{
+font-size: 30rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: 2px solid rgb(142, 185, 237);
+}
+
+.userinfo-nickname {
+  margin-top: 35rpx;
+  color: #fff;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.banner{
+  padding: 20rpx 0;
+  /* border-bottom: 1px solid #ccc; */
+}
+.banner-left {
+margin-left: 3%;
+font-size: 28rpx;
+}
+.banner-right {
+margin-right: 3%;
+font-size: 26rpx;
+float: right;
+color: rgb(193, 190, 193);
+}
+.cont{
+  width: 95%;
+  margin: 30rpx auto;
+  display: flex;
+  flex-direction: row;
+}
+.cont-r{
+  margin: 0 auto;
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-r image{
+  width: 65rpx;
+  height: 65rpx;
+}
+.cont-r text{
+  font-size: 26rpx;
+  margin-top: 25rpx;
+}
+.fenge{
+  height: 13rpx;
+  background-color: #ccc;
+  opacity: 0.2;
+}

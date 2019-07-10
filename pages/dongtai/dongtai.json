@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "学校动态",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#328ef6",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}

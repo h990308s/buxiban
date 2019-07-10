@@ -1,0 +1,89 @@
+<view class="top">
+  <swiper class='home-swiper' indicator-dots='true' autoplay='true' interval='4000' duration='1000' circular='true' indicator-color="#FFFFFF" indicator-active-color="#3197fb">
+    <view>
+      <block>
+        <swiper-item>
+          <image src='{{img}}' class='u-img-slide' mode='aspectFill'></image>
+        </swiper-item>
+      </block>
+    </view>
+  </swiper>
+  <!-- 轮播图结束 -->
+
+  <van-row custom-class="top1">
+    <van-col span="20">{{yingyu.title}}</van-col>
+    <van-col span="4" custom-class="top1_1">
+      <van-icon name="share" />
+      <text>分享</text>
+    </van-col>
+  </van-row>
+  <view class="qian">￥1200.00</view>
+  <view class="top2">
+    <view class="top2_1">
+      <text>评价</text>
+      <view style="float:right;">
+        暂无评价
+        <van-icon name="arrow" />
+      </view>
+    </view>
+    <view class="top2_2">
+      <text>截止日期</text>
+      <text>{{yingyu.stop_time}}</text>
+    </view>
+    <view class="top2_2">
+      <text>来访地址</text>
+      <text>{{yingyu.address}}</text>
+    </view>
+    <view class="top2_3">
+      <text>课程简介</text>
+    </view>
+  </view>
+  <!-- 评价结束 -->
+  <view class="top3">
+    <view class="top3_1">6-8岁 儿童英语,学习学科知识,初涉英语思维</view>
+    <view class="top3_2">
+      <text>阅读中习得语法，写整句组成段落</text>
+      <text>学生学习英语语法不是“背公式”，而是在真实的英语环境中去学习。如，学生在学习副词时，首先通过动画“唱出”副词的概念，明白副词是修饰动作的。再阅读关于副词的小故事，熟练地掌握副词的用法。</text>
+      <text>这个阶段学英语更加注重读写结合，开始由写整句过渡到组成段落。每个故事阅读完，都将引导学生写一段延伸文字，形式生动，或对话，或书信，或报告。让学生绽放想象力的同时，能够写出结构完整、语法正确的句子，并把句子通过逻辑关系联系起来，构成段落。</text>
+    </view>
+    <view class="top3_2">
+      <text>如母语般用英文做数学运算</text>
+      <text>孩子在阅读数学故事书的同时，发现故事中的数学元素，如in all, altogether，并对数学元素进行运算，最后解决数学故事中的问题。最终，学生一看到in all，altogether 等数学元素时，马上反映出用加法进行运算。</text>
+    </view>
+    <view class="top3_1" style="margin-top: 40rpx;">9-12岁 少儿英语，运用思维，解决实际问题</view>
+  </view>
+  <!-- 课程简介结束 -->
+  <view class="top4">
+    <view class="top4_1">猜你喜欢</view>
+    <van-row>
+      <van-col span="12" bindtap='bindAaa2'>
+        <view class="top4_2">
+          <view class="top4_2_1">
+            <image src="{{xihuan.img}}"></image>
+            <view class="top4_2_1_1">
+              <text>{{xihuan.title}}</text>
+              <text>￥{{xihuan.price}}</text>
+            </view>
+          </view>
+        </view>
+      </van-col>
+       <van-col span="12" bindtap='bindAaa1'>
+        <view class="top4_2">
+          <view class="top4_2_1">
+            <image src="{{xihuan1.img}}"></image>
+            <view class="top4_2_1_1">
+              <text>{{xihuan1.title}}</text>
+              <text>￥{{xihuan1.price}}</text>
+            </view>
+          </view>
+        </view>
+      </van-col>
+    </van-row>
+
+  </view>
+</view>
+<!-- 内容结束 -->
+<view class="dibu">
+  <view bindtap='bodadianhua'>电话咨询</view>
+  <view>立即报名</view>
+</view>

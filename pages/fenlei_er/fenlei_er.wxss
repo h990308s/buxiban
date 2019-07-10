@@ -1,0 +1,150 @@
+.top{
+  width: 98%;
+  height: 600rpx;
+  margin: 0 auto;
+  margin-top: 80rpx;
+}
+.home-swiper {
+  width: 100%;
+  height: 100%;
+}
+ 
+.home-swiper image {
+  width: 100%;
+  height: 85%;
+}
+/* 轮播结束 */
+.top1{
+  width: 98%;
+  margin: 0 auto;
+  font-size: 26rpx;
+  color: #000;
+  margin-top: 20rpx;
+}
+.top1_1{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+  text-align: center;
+  font-size: 26rpx;
+  color: #ccc;
+  border-left:2rpx solid #ccc; 
+}
+.qian{
+  margin-top: 20rpx;
+  color: red;
+  font-size: 32rpx;
+}
+.top2{
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #000;
+}
+.top2_1{
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+.top2_1 van-icon{
+  color: #ccc;
+  vertical-align: middle;
+}
+.top2_2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25rpx;
+  padding-bottom: 25rpx;
+  border-bottom: 2rpx solid #ccc;
+}
+.top2_2 text:nth-child(2){
+  color: #ccc;
+  margin-top: 20rpx;
+}
+.top2_3{
+  margin-top: 25rpx;
+  padding-bottom: 25rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.top3{
+  
+}
+.top3_1{
+  background:#82C555;
+  color: #fff;
+  font-size: 34rpx;
+  letter-spacing: 2rpx;
+}
+.top3_2{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 26rpx;
+  text-indent: 0.5em;
+  line-height: 40rpx;
+}
+.top3_2 text:nth-child(1){
+  color: #000;
+  font-weight: 700;
+}
+.top4{
+  font-size: 26rpx;
+}
+.top4_1{
+  margin-top: 8rpx;
+  padding-top:20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #eee; 
+  border-top: 2rpx solid #eee; 
+}
+.top4_2{
+  display: flex;
+  flex-direction: row;
+}
+.top4_2_1{
+  width: 100%;
+  height: 300rpx;
+  border: 2rpx solid #ccc;
+  padding: 2rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.top4_2_1 image{
+  width: 100%;
+  height: 300rpx;
+}
+.top4_2_1_1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30rpx;
+}
+.top4_2_1_1 text:nth-child(1){
+  width: 90%;
+  display: block;
+  overflow:hidden; 
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.top4_2_1_1 text:nth-child(2){
+  color: red;
+  margin-top: 30rpx;
+}
+/* 内容结束 */
+.dibu{
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  display: flex;
+  font-size: 28rpx;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.dibu view:nth-child(1){
+  width: 50%;
+  background: #ffcd48;
+  text-align: center;
+}
+.dibu view:nth-child(2){
+  width: 50%;
+  background: #81b3fc;
+  text-align: center;
+}

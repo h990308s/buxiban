@@ -1,0 +1,67 @@
+.banner{
+  width: 100%;
+  height: 400rpx;
+}
+.substance{
+  width: 100%;
+}
+.title{
+  display: block;
+  font-size: 32rpx;
+  margin-left: 8%;
+  margin-top: 40rpx;
+}
+.content{
+  width: 92%;
+  margin-left: 8%;
+  margin-top: 40rpx;
+}
+.content image{
+  margin-top: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.content text{
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.wangzhi{
+  margin-left: 40rpx;
+}
+.lianxi{
+  font-size: 28rpx;
+  color: #1296db;
+}
+.jiange{
+  width: 100%;
+  margin-top: 15rpx;
+  height: 20rpx;
+  background-color: #f8f8f8;
+}
+.consult{
+  width: 92%;
+  margin: 0 auto;
+}
+.consult text:nth-child(1){
+  display: block;
+  font-size: 34rpx;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.consult text:nth-child(2){
+  font-size: 34rpx;
+  margin-top: 30rpx;
+}
+.consult-button{
+  width: 100%;
+  height: 90rpx;
+  font-size: 34rpx;
+  color: #fff;
+  background-color: rgb(129, 179, 250);
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+}
+.consult-button:active{
+  background-color: #e6e6e6;
+  color: #000;
+}

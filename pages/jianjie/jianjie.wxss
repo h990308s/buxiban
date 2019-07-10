@@ -1,0 +1,61 @@
+.lunbo{
+  height: 300rpx;
+}
+.banner{
+  width: 100%;
+  height: 300rpx;
+}
+.content{
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 34rpx;
+  line-height: 50rpx;
+}
+.content text:nth-child(1){
+  font-size: 30rpx;
+  color: red;
+  font-weight: bold;
+}
+.content text:nth-child(2){
+  font-size: 28rpx;
+  color: rgb(99, 99, 99);
+}
+.fengex{
+  width: 100%;
+  height: 20rpx;
+  background-color: #e7e7e7;
+}
+.label{
+  width: 45%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+}
+.line-left{
+  width: 20%;
+  border-top: 2rpx solid black;
+  margin-top: 23rpx;
+}
+.label text{
+  font-size: 34rpx;
+  color: black;
+}
+.line-right{
+  width: 20%;
+  border-top: 2rpx solid black;
+  margin-top: 23rpx;
+}
+.rongyu{
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+.rongyu image{
+  width: 48%;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.rongyu-right{
+  float: right;
+}

@@ -1,0 +1,32 @@
+<scroll-view scroll-x="true" class="aaa">
+  <view class="uploadWrap" scroll-x="true">
+    <scroll-view class="upload_Item" scroll-y="true" wx:for="{{subjects}}" wx:key="index">
+      <view class="up">
+        <image class="upload_Item_img" src="{{item.logo}}"></image>
+        <text>{{item.name}}</text>
+      </view>
+      <view class="down">
+        <text>{{subjects[index].summary[0]}}</text>
+        <text>{{subjects[index].summary[2]}}</text>
+        <text>{{subjects[index].summary[4]}}</text>
+        <text>{{subjects[index].summary[6]}}</text>
+        <text>{{subjects[index].summary[7]}}</text>
+        <text>{{subjects[index].summary[8]}}</text>
+        <text>{{subjects[index].summary[9]}}</text>
+        <text>{{subjects[index].summary[10]}}</text>
+        <text>{{subjects[index].summary[11]}}</text>
+        <text>{{subjects[index].summary[13]}}</text>
+        <text>{{subjects[index].summary[15]}}</text>
+        <text>{{subjects[index].summary[16]}}</text>
+        <text>{{subjects[index].summary[17]}}</text>
+        <text>{{subjects[index].summary[18]}}</text>
+        <text>{{subjects[index].summary[20]}}</text>
+        <text>{{subjects[index].summary[21]}}</text>
+        <text>{{subjects[index].summary[23]}}</text>
+        <text>{{subjects[index].summary[25]}}</text>
+        <text>{{subjects[index].summary[27]}}</text>
+        <text>{{subjects[index].summary[29]}}</text>
+      </view>
+      </scroll-view>
+  </view>
+</scroll-view>

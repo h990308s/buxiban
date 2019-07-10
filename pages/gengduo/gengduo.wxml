@@ -1,0 +1,16 @@
+<image class="banner" src="{{list.banner}}"></image>
+<navigator url="../../pages/jianjie/jianjie">
+  <view class="jianj">
+    <image src="../../image/jianjie.png"></image>
+    <text>学校简介</text>
+    <van-icon class="tubiao" name="arrow" />
+  </view>
+</navigator>
+<view class="fengexian"></view>
+<navigator url="../../pages/lianxiwomen/lianxiwomen">
+  <view class="lianxi">
+    <image src="../../image/lianxifangshi.png"></image>
+    <text>联系我们</text>
+    <van-icon class="tubiao" name="arrow" size="{10}" />
+  </view>
+</navigator>

@@ -1,0 +1,7 @@
+<form bindsubmit="formSubmit" name="loginForm" action="../../bangding/bangding">
+  <view class="content">
+    <text>密码</text>
+    <input class="int" name="phone" type="password" maxlength="11" bindinput="inputPhoneNum" placeholder="请输入您的密码"></input>
+  </view>
+  <button class="submit" form-type="submit">确定</button>
+</form>

@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pinglun1/pinglun1",
+    "pages/pinglun/pinglun",
+    "pages/fenlei/fenlei",
+    "pages/my/my",
+    "pages/shizi/shizi",
+    "pages/dingdan/dingdan",
+    "pages/fankui/fankui",
+    "pages/xieyi/xieyi",
+    "pages/mima/mima",
+    "pages/bangding/bangding",
+    "pages/lianxiwomen/lianxiwomen",
+    "pages/jianjie/jianjie",
+    "pages/gengduo/gengduo",
+    "pages/dongtai/dongtai",
+    "pages/fenlei_er/fenlei_er",
+    "pages/fenlei_er1/fenlei_er1",
+    "pages/fenlei_er2/fenlei_er2"
+  ],
+  "usingComponents": {
+    "van-tabbar": "./utils/dist/tabbar/index",
+    "van-icon": "./utils/dist/icon/index",
+    "van-tabbar-item": "./utils/dist/tabbar-item/index",
+    "van-rate": "./utils/dist/rate/index",
+    "van-row": "./utils/dist/row/index",
+    "van-col": "./utils/dist/col/index",
+    "van-button": "./utils/dist/button/index",
+    "van-progress": "./utils/dist/progress/index"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#3197fb",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "iconPath": "./image/shouye.png",
+        "selectedIconPath": "./image/shouye1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "iconPath": "./image/fenlei.png",
+        "selectedIconPath": "./image/fenlei1.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "./image/wode.png",
+        "selectedIconPath": "./image/wode1.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

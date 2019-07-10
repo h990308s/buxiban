@@ -1,0 +1,38 @@
+<swiper class="lunbo" indicator-dots="true" interval='4000' indicator-active-color="rgb(255, 0, 0)" autoplay="true">
+  <swiper-item class="lunbotu">
+    <image class="banner" src="{{bannertu}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image class="banner" src="{{bannertu2}}"></image>
+  </swiper-item>
+</swiper>
+    
+<view class="content">
+  <text class="title">{{list.name}}</text>
+  <text>
+    苏州腾大教育咨询有限公司是专业从事中小学个性化辅导的大型品牌教育连锁机构。
+
+
+    腾大教育以“爱+激励”为教育理念，注重学生学习动力的激发,习惯的培养和方法的传授，在传授知识的同时，树立学生学习的信心，培养学生顽强的性格、沉着冷静的心理素质和积极乐观的心态，全面提高学生的学习品质。
+
+
+    “好老师，好方法，好成绩”,好老师是好成绩的保证，腾大视“教学质量是企业的生命”。腾大教育拥有一支600人的强大教研、教学队伍，具有高级职称的教师占教师总数量60%，中级职称的教师占教师总数量20%，其中初高中- -线教师占80%以上。很多教师凭借丰富的中、高考出题与批卷经验，能够准确把握考试方向，帮助众多学子跨入理想的学府。一路走来，腾大教育教师团队兢兢业业，遵守“敬业、奉献”的教学原则，培养出大批优秀学子，深得学生家长信任，在业界树立了典范标杆和极佳的口碑!
+
+
+    教学条件仅仅是学生成绩提高的一个外部因素，学生的心理世界是其内在因素，只有双方面积极的配合起来，才能取得良好的效果。腾大教育特聘北京大学、北京师范大学和南京师范大学资深教育专家，不定期对学员进行学习动力激励、学习兴趣培养、改善亲子关系、青春期心理疏导，配合家长进行全方位心理调节。学习动力有了，外界干扰消除了，学生才能安心专心的把所有的心思放在学习上。
+
+
+    我们认为:真正改变学生的，不仅仅是我们的知识和才华，更重要的,是我们对学生的无私关爱。学生在关爱中才会对学习产生浓厚的兴趣，有了学习兴趣，才会有学习的灵感，从而创造性地投入学习。学生的智力潜能只有在爱的环境里，才能被最大限度地开发、挖掘，学生的学习能力才能最大限度地发挥和展示。众多学生在这样个性化的心智关怀和成功体验中，考入重点高中和名牌大学。
+
+  </text>
+</view>
+<view class="fengex"></view>
+<view class="label">
+  <view class="line-left"></view>
+  <text> 荣誉资质 </text>
+  <view class="line-right"></view>
+</view>
+<view class="rongyu">
+  <image src="{{rongyu2}}"></image>
+  <image class="rongyu-right" src="{{rongyu1}}"></image>
+</view>

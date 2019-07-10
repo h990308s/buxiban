@@ -1,0 +1,41 @@
+page{
+  height: 100%;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.describe{
+  width: 94%;
+  height: 300rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  background-color: white;
+  border-radius: 5rpx;
+}
+.name{
+  width: 94%;
+  height: 90rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  background-color: white;
+  border-radius: 5rpx;
+}
+.int{
+  width: 94%;
+  height: 90rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  font-size: 32rpx;
+  background-color: white;
+  border-radius: 5rpx;
+}
+.submit{
+  width: 94%;
+  height: 90rpx;
+  background-color: #3197fb;
+  font-size: 36rpx;
+  color: white;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}

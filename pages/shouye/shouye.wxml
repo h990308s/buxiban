@@ -1,0 +1,44 @@
+<!--pages/shouye/shouye.wxml-->
+<!-- 搜索框 -->
+<view class="input">
+  <input placeholder="{{subjects.section[0].section_title_text}}" type="text"></input>
+</view>
+<!-- 轮播图 -->
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='4000' duration='1000' circular='true' indicator-color="#FFFFFF" indicator-active-color="#3197fb">
+  <block wx:for="{{subjects.section[1].section_datas}}" wx:key="">
+    <swiper-item>
+      <image src='{{item.img}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 导航 -->
+<view class="banner">
+  <view class="banner_t">
+      <view class="banner_t_img" wx:for="{{subjects.section[2].section_datas}}" wx:key="index" bindtap="bindXsk" data-newsid="{{item}}">
+        <image src="{{item.img}}"></image>
+        <text>{{item.title}}</text>
+      </view>
+  </view>
+</view>
+<!-- 精品课程 -->
+<view class="ment">一{{subjects.section[3].section_title_text}}一</view>
+<view class="ments">
+  <view class="ments_t" wx:for="{{subjects.section[4].section_datas}}" wx:key="" bindtap="bindtop" data-newsid="{{item}}">
+    <image src="{{item.img}}"></image>
+    <text class="zhankai1">{{item.title}}</text>
+  </view>
+</view>
+<view class="ments_b"></view>
+<!-- 学校动态 -->
+<view class="ment">一{{subjects.section[5].section_title_text}}一</view>
+<view class="mentss" wx:for="{{subjects.section[6].section_datas}}" wx:key="" bindtap="bindtap" data-newsid="{{item}}">
+  <image src="{{item.img}}"></image>
+  <text>{{item.title}}</text>
+  <text class="zhankai">{{item.sub_title}}</text>
+</view>
+<view class="ments_b"></view>
+<!-- 客服 -->
+<view class="kefu">
+  <image src="../../image/kefu.png"></image>
+  <contact-button class="contact" type="default-dark" size="20" session-from="weapp"></contact-button>
+</view>

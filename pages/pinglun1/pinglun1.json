@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+    "navigationBarTitleText": "哪些学生适合个性化辅导？",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#328ef6",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+}
